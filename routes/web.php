@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ARController;
+use App\Http\Controllers\MessagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +17,6 @@ use App\Http\Controllers\ARController;
 // Route::get('/welcome', function () {
 //     return view('welcome');
 // });
-Route::get('/ar',[ARController::class, 'index']);
 
-Route::get('/test',[ARController::class, 'test']);
+Route::get('messages', [MessagesController::class,'index']);
+Route::post('messages', [MessagesController::class,'sendMessage']);
