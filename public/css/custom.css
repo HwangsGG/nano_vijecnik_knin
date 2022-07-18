@@ -1,0 +1,45 @@
+.b-table-sticky-header {
+    overflow-y: auto;
+    max-height: 600px !important;
+}
+
+pt-6, .py-6 {
+    padding-top: 4rem !important;
+}
+
+@media (min-width: 576px) {
+    .fs-error {
+        font-size: 10rem;
+    }
+}
+
+
+/*-----------------------------------------------
+|   Flex
+-----------------------------------------------*/
+.flex-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-between-center {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-end-center {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

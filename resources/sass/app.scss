@@ -1,0 +1,24 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Admin LTE
+@import '~admin-lte/dist/css/adminlte.css';
+
+// sweet alert
+@import '~sweetalert2/src/sweetalert2.scss';
+// import 'sweetalert2/src/sweetalert2.scss'
+
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+
+// FontAwesome
+$fa-font-path:"../webfonts";
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
