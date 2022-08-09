@@ -16,7 +16,6 @@ class MessageCreated implements ShouldBroadcast
 
     public $message;
 
-
     /**
      * Create a new event instance.
      *
@@ -24,6 +23,7 @@ class MessageCreated implements ShouldBroadcast
      */
     public function __construct($message)
     {
+        //
         $this->message = $message;
     }
 
@@ -34,6 +34,6 @@ class MessageCreated implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('messages');
+        return new Channel('message');
     }
 }
